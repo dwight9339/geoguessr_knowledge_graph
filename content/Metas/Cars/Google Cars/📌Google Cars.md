@@ -1,6 +1,6 @@
 # Google Car Meta
 
-Google uses a variety of different vehicles for capturing Street View imagery depending on the region. They attempt to remove algorithmically from much of this imagery but it's not always successful (especially for large vehicles) making this a great tool for narrowing down your location.
+Google uses a variety of different vehicles for capturing Street View imagery depending on the region. The car isn't always visible but it can be one of the most powerful metas in the game.
 
 ## Known Google Cars
 | Google Car              | Example Image                  | Region    |
