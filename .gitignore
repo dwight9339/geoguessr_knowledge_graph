@@ -10,3 +10,4 @@ private/
 .replit
 replit.nix
 sync.ffs_db
+*.ffs_tmp
