@@ -10,14 +10,14 @@ This is a **personal learning tool**, not an encyclopedia. While I strive for ac
 
 I've organized pages into **two main categories**:
 
-- **[[📌Metas|Metas]]** offer an additive, bottom-up way to derive a location guess — e.g., short license plates + double yellow road markings + speed limit in MPH = [[United States]]. This kind of information is especially useful for general region-guessing and in no move/NMPZ modes, where you typically have less to go on. Some key metas include:
-    - [[📌Bollards|Roadside bollards]]
-    - [[📌Flags|Flags]]
-    - [[📌Languages|Languages]]
-    - [[📌License Plates|License plates]]
-    - [[Domains]]
+- **Metas** offer an additive, bottom-up way to derive a location guess — e.g., short license plates + double yellow road markings + speed limit in MPH = United States. This kind of information is especially useful for general region-guessing and in no move/NMPZ modes, where you typically have less to go on. Some key metas include:
+    - Roadside bollards
+    - Flags
+    - Languages
+    - License plates
+    - Domains
 
-- **[[📌Places|Place]]** entries take a more subtractive, top-down approach. A broad base of knowledge about specific locations gives you “bundles” of clues you can unpack to eliminate possibilities and hone in on a likely guess — e.g., [[Turkey]] has “Dur” on stop signs, distinctive gray dumpsters, and the Turkish language features many "Ş" characters. The more of these clues you spot, the more confident you can be.
+- **Place** entries take a more subtractive, top-down approach. A broad base of knowledge about specific locations gives you “bundles” of clues you can unpack to eliminate possibilities and hone in on a likely guess — e.g., Turkey has “Dur” on stop signs, distinctive gray dumpsters, and the Turkish language features many "Ş" characters. The more of these clues you spot, the more confident you can be.
 
     - Place entries are organized hierarchically, from broad to narrow, with continents at the top level.
     - Within each top-level continent folder, there are subfolders for individual countries and for international regions — these might be groups of countries with shared cultural, linguistic, or historical ties, or they might represent non-border-aligned regions like climatic zones.
