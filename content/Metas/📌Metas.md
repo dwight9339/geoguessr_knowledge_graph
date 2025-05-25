@@ -1,0 +1,3 @@
+### **Overview**
+
+**Metas** are categories of things available in the Google Street View imagery used by GeoGuessr that can be used to arrive at a guess about where in this wide world you were dropped at the start of the round. While it's debatable whether metas like the _generation or type_ of the specific _car_ used to capture Street View images is in the true "spirit" of the game being that they don't really relate directly to geographical knowledge, _anything_ that can theoretically be seen and recognized can provide information that a player with the right knowledge might use to their advantage. The top-level (📌) page for each meta contains information about each meta (the meta meta, if you will) and how best, or even whether at all, to learn and employ it.

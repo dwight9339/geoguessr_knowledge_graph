@@ -1,0 +1,10 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Observations",
+  "attachmentFolderPath": "_attachments",
+  "userIgnoreFilters": [
+    "templates/",
+    "attachments/"
+  ],
+  "alwaysUpdateLinks": true
+}
