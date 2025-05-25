@@ -1,0 +1,1 @@
+<% tp.user.run_sync_quartz() %>
