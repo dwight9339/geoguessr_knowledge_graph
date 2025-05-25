@@ -25,7 +25,7 @@ I've organized pages into **two main categories**:
 
     - Place entries are organized hierarchically, from broad to narrow, with continents at the top level.
     - Within each top-level continent folder, there are subfolders for individual countries and for international regions — these might be groups of countries with shared cultural, linguistic, or historical ties, or they might represent non-border-aligned regions like climatic zones.
-    - Within each country folder, you’ll find subfolders for individual cities, subdivisions (a catch-all for states, provinces, prefectures, etc.), and intra-national regions. These might be clusters of subdivisions with distinct traits or borderless areas defined by similar climate, geography, or cultural patterns, all contained within one country.
+    - Within each country folder, you’ll find subfolders for individual cities, subdivisions (a catch-all for states, provinces, prefectures, etc.), and intra-national regions. These might be clusters of subdivisions with distinct traits or borderless areas defined by similar climate, geography, or cultural patterns, all contained within a single country.
 
 ## 🤝 Contributions
 
