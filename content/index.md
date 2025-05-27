@@ -14,7 +14,7 @@ This is a **personal learning tool**, not an encyclopedia. While I strive for ac
 
 I've organized pages into **two main categories**:
 
-- **[[📌Metas|Metas]]** offer an additive, bottom-up way to derive a location guess — e.g., short license plates + double yellow road markings + "Speed Limit" sign = [[United States]]. This kind of information is especially useful for general region-guessing and in no move/NMPZ modes, where you typically have less to go on. Some key metas include:
+- **[[📌Metas|Metas]]** offer an additive, bottom-up way to derive a location guess — e.g., short license plates + double yellow road markings + "Speed Limit" sign = [[United States]]. Learning to recognize meta clues is absolutely essential and some key metas include:
     - [[📌Bollards|Roadside bollards]]
     - [[📌Flags|Flags]]
     - [[📌Languages|Languages]]
