@@ -1,7 +1,6 @@
 .DS_Store
-.gitignore
-node_modules
-public
+node_modules/
+public/
 prof
 tsconfig.tsbuildinfo
 .obsidian
@@ -11,3 +10,4 @@ private/
 replit.nix
 sync.ffs_db
 *.ffs_tmp
+sync.ffs_db
