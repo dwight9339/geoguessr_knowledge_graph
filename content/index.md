@@ -4,7 +4,7 @@ title: Home
 
 # **🌐 Welcome!**
 
-This is my personal knowledge base of the world as it relates to **GeoGuessr**! 
+This is my personal knowledge base of the world as it relates to **GeoGuessr**.
 
 ## ⚠️ Disclaimer
 
