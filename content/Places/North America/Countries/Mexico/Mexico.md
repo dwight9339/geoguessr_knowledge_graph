@@ -14,7 +14,7 @@
 - **Natural Features:**  
 
 ## Continents
-- [[North America]]
+- [[📌North America]]
 
 ## Subregions
 - 

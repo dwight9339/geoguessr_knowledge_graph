@@ -1,3 +1,8 @@
+---
+pinned: "true"
+title: South America
+---
+
 # 🌎 South America
 
 ## Overview

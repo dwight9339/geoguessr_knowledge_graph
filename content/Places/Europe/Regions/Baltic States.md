@@ -1,7 +1,7 @@
 
 # 🌐 Baltic States
 
-**Continent**: [[Europe]]
+**Continent**: [[📌Europe]]
 
 ## Overview
 > The Baltic States—Estonia, Latvia, and Lithuania—are a triad of northeastern European countries that share similar historical trajectories, post-Soviet infrastructure, and regional geography. Though each has distinct cultural and linguistic identities, they often share architectural patterns, road signage, and rural/urban layouts.

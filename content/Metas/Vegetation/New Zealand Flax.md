@@ -12,6 +12,6 @@ New Zealand Flax is a native to [[New Zealand]] and will usually be the only pla
 - [[California]]
 - [[Australia]]
 - [[South Africa]]
-- [[Europe]]
+- [[📌Europe]]
 ## **Examples**
 ![[vegetation-new-zealand-flax.png|A big bushy New Zealand flax in Manawatu-Whanganui region]]

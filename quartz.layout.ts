@@ -62,7 +62,25 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const aPinned = a.data?.title.startsWith("📌")
+        const bPinned = b.data?.title.startsWith("📌")
+
+        if (aPinned && !bPinned) return -1
+        if (!aPinned && bPinned) return 1
+
+        // Then fallback to normal sort (folders first, alphabetical)
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+
+        return a.isFolder ? -1 : 1
+      },
+    }),
   ],
   right: [],
 }

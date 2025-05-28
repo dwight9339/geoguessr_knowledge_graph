@@ -7,7 +7,7 @@ Banana plants are prominent in many tropical locales around the world including:
 - [[East Africa]]
 - [[Central Africa]]
 - [[Central America]]
-- [[South America]]
+- [[📌South America]]
 - [[Caribbean]]
 ## Examples
 ![[banana-plant-thailand.png|A banana plant in northern Thailand.]]
