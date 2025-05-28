@@ -7,7 +7,7 @@ The native script of Korea, Hangul is a unique featural alphabet designed for ph
 - [[Korean]]
 
 ## **Regions & Countries**
-- [[South Korea]]
+- [[📌South Korea]]
 - [[North Korea]]
 
 ## **Visual Characteristics**

@@ -6,11 +6,11 @@
 - **Tough, fibrous texture**: Used historically for weaving and rope-making.
 ---
 ## **Distribution**
-New Zealand Flax is a native to [[New Zealand]] and will usually be the only place it is seen out in the wild but it may also appear in a cultivated setting in:
+New Zealand Flax is a native to [[📌New Zealand]] and will usually be the only place it is seen out in the wild but it may also appear in a cultivated setting in:
 - [[United Kingdom]]
 - [[Ireland]]
 - [[California]]
-- [[Australia]]
+- [[📌Australia]]
 - [[South Africa]]
 - [[📌Europe]]
 ## **Examples**

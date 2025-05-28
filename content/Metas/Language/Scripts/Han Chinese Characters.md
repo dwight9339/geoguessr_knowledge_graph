@@ -13,8 +13,8 @@ Logographic characters used across East Asia in Chinese, Japanese, and Korean co
 - [[China]]
 - [[Taiwan]]
 - [[Hong Kong]]
-- [[Japan]]
-- [[South Korea]]
+- [[📌Japan]]
+- [[📌South Korea]]
 - [[Singapore]]
 
 ## **Visual Characteristics**

@@ -10,8 +10,8 @@ Covers Australia, New Zealand and the Pacific Islands. Left-hand driving everywh
 - **Pole Types**  
 
 ## Regions
-- [[Australia]]
-- [[New Zealand]]
+- [[📌Australia]]
+- [[📌New Zealand]]
 - [[Pacific Islands]]
 
 ## Countries/Territories (To Do: Add links)
