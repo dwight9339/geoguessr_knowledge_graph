@@ -5,6 +5,7 @@
 ## **Why Learn Metas?**
 
 I like to think of metas as providing sets of **likelihood vectors**. When you recognize a specific **meta clue** it tells you information about where and, as importantly, where *not* you're likely to be. By stacking these vectors, certain locations gradually rise in likelihood, allowing you to narrow your set of **location candidates**. The more vectors you combine (i.e., the more meta clues you recognize), the narrower and more definitive your candidate set becomes.
+
 ![[likelihood-vector-summation-visual.gif]]
 
 ## **Evaluating Metas**

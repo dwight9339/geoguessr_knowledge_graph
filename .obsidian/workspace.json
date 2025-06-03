@@ -11,10 +11,14 @@
             "id": "bd8fcf9fe8839c8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Metas/📌Metas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "📌Metas"
             }
           }
         ]
@@ -162,5 +166,9 @@
     }
   },
   "active": "bd8fcf9fe8839c8b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/Metas/📌Area Codes.md",
+    "content/Metas/📌Metas.md",
+    "README.md"
+  ]
 }
