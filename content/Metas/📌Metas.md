@@ -76,8 +76,3 @@ Key factors that contribute to a meta's distinctiveness include:
 	- **Theoretical metrics**:
 		- `roaming frequency = (# of sightings of the clue outside its home region) ÷ (# of total sightings)`  
 		  (Higher = less distinctive)
-
-
-
-
-
