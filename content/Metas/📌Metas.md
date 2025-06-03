@@ -6,3 +6,15 @@
 
 I like to think of metas as providing sets of **likelihood vectors**. When you recognize a specific **meta clue** it tells you information about where and, as importantly, where *not* you're likely to be. By stacking these vectors, certain locations gradually rise in likelihood, allowing you to narrow your set of **location candidates**. The more vectors you combine (i.e., the more meta clues you recognize), the narrower and more definitive your candidate set becomes.
 ![[likelihood-vector-summation-visual.gif]]
+
+## **Evaluating Metas**
+
+The world is a big place and is loaded with more information than any human could ever hope to memorize in one measly lifetime. That's why, in addition to recording specific clues for each meta, I also apply a variety of metrics to try to evaluate the in-game utility of each meta to be better able to decide which ones might actually be most worth your time to learn. I use the **likelihood vector** concept extensively in my analysis as I believe it provides a fantastic framework for thinking about meta utility in quantitative way.
+
+## **Difficulty**
+
+## **Distinctiveness**
+
+## **Universality**
+
+## **Stability**
