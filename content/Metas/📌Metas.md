@@ -36,10 +36,10 @@ SunDirection_{north}=\begin{bmatrix}
 \underset{\text{New Zealand}}{+100} &
 \end{bmatrix}
 $$
-This vector tips your guess strongly toward the southern hemisphere but hedges near the equator and  applies a reduced penalty to equatorial countries. You can then think of your current guess as a rolling sum of these vectors.
+This vector tips your guess strongly toward the southern hemisphere but hedges near the equator by applying a reduced penalty to equatorial countries. As you play and observe, collecting more vectors, the individual likelihood values for each location shift and a set of likely candidates emerges.
 $$
 \begin{align*}
-\textit{Guess} &= DriveSide_{left} + SunDirection_{north} \\\\
+\textit{Likelihood} &= DriveSide_{left} + SunDirection_{north} \\\\
 &= \begin{bmatrix}
 \underset{\text{UK}}{-100} &
 \underset{\text{Ireland}}{-100} &
@@ -56,7 +56,7 @@ $$
 
 ![[likelihood-vector-summation-visual.gif]]
 
-Likelihood vectors make a particularly compelling mental model due to their **composability**, each clue contributes its own “nudge” toward or away from specific places. The more you observe and identify, the more these nudges stack up to shape a confident, refined guess. This mirrors how human reasoning often works: we don't usually land on an answer all at once, but rather accumulate partial evidence until a pattern emerges strongly enough to act on. They also provide an excellent framework for quantitative analysis of metas (see the next section on meta evaluation).
+Likelihood vectors make a particularly compelling mental model due to their **composability**, each clue contributes its own “nudge” toward or away from specific places. The more you observe and identify, the more these nudges stack up to shape a confident, refined guess. This mirrors how human reasoning often works: we don't usually land on an answer all at once, but rather accumulate partial evidence until a pattern emerges strongly enough to act on. They also provide an excellent framework for **quantitative analysis** of metas (see the next section on meta evaluation).
 
 While we're calling these “vectors,” it's worth acknowledging that the **real structure of these clues is often more complex**. Many metas don't map cleanly to countries—they might point to **regions, states, or even individual cities** and are often hierarchical (e.g., a clue that applies to Brazil as a whole but even more strongly to São Paulo), or conditional (e.g., only valid under certain lighting conditions or time periods). From a strict mathematical perspective, this implies something closer to a **tensor**, a multi-dimensional structure encoding relationships at different levels of granularity.
 
