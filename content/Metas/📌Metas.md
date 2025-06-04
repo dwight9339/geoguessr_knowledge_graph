@@ -33,7 +33,7 @@ SunDirection_{north}=\begin{bmatrix}
 \underset{\text{Kenya}}{-25} &
 \underset{}{...} &
 \underset{\text{Australia}}{+100} &
-\underset{\text{New Zealand}}{-100} &
+\underset{\text{New Zealand}}{+100} &
 \end{bmatrix}
 $$
 This vector tips your guess strongly toward the southern hemisphere but hedges near the equator and  applies a reduced penalty to equatorial countries. You can then think of your current guess as a rolling sum of these vectors.
