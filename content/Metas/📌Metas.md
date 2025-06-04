@@ -98,7 +98,7 @@ Difficulty is a measure of how much work is required to learn and employ a meta 
 
 - **Pattern coherence**: Basically, how easy is it to memorize which geographic location(s) a meta clue might map to?
 	- **Example**s:
-		- Brazilian area codes are fairly simple to learn as the first number maps to a region and the second maps to a sub-region within that region while US area codes have no such geographic organization scheme and similarity between the codes themselves essentially have no bearing on the region where the code is actually used.
+		- Brazilian area codes are fairly simple to learn as the first number maps to a region and the second maps to a sub-region within that region while US area codes have no such geographic organization scheme and similarities between the codes themselves essentially have no bearing on the regions where codes are actually used.
 	- **Theoretical metrics**:
 		- `coherence score = 1 - (entropy of clue→region mapping)` - In plain terms: if similar-looking or numerically close clues map to geographically close places, the entropy is lower = higher coherence.
 
