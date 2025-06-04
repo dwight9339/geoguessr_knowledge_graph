@@ -108,6 +108,10 @@ Difficulty is a measure of how much work is required to learn and employ a meta 
 	- **Theoretical metrics**:
 		- `exposure rate = % of games in a given region that contain the clue in question within first X seconds of movement`
 
+When choosing to study a meta it's important to weigh the tradeoff between meta difficulty and expected payoff. Low-difficulty/high-utility metas such as [[📌Driving Sides|driving sides]], [[📌Hemisphere|hemispheres]], [[📌Road Signs|road signage]], and [[📌Scripts|script]] and [[📌Languages|language]] spotting skills are absolute low-hanging fruit for newer players while more advanced metas like [[Utility Poles|utility poles]] and [[📌Bollards|bollards]] carry a higher memorization tax but are practically a necessity to unlocking higher levels of competitive play.
+
+---
+
 ### **Distinctiveness**
 
 Distinctiveness refers to how sharply a meta clue narrows down your set of **location candidates**. In terms of likelihood vectors, a meta clue's distinctiveness reflects the **magnitude** of its impact — that is, how strongly the clue shifts the probability toward a specific subset of locations while ruling out others.
@@ -130,3 +134,64 @@ Key factors that contribute to a meta's distinctiveness include:
 	- **Theoretical metrics**:
 		- `roaming frequency = (# of sightings of the clue outside its home region) ÷ (# of total sightings)`  
 		  (Higher = less distinctive)
+
+- **Situational Prominence**: How often does the clue serve as one of the **most important** visible clues in a round?
+	- **Examples**:
+	    - In sparse rural coverage, **pole types** or **road surface patterns** may be the best piece of information available.
+	    - URL [[Domains|domains]] carry high distinctive weight but are typically found in urban areas where there are often even more distinctive clues available.
+	  - **Theoretical metric**s:
+	    - `situational_prominence = # of panoramas where the clue is in the top n most distinctive available clues ÷ # of panoramas where the clue is present`
+
+Learning to recognize meta clues with high distinctiveness helps you arrive at more confident guesses more quickly. Advanced players can often confidently make guesses based on just a few, or even just a single, distinctive clue. Prioritizing these metas is especially crucial for No Move and NMPZ play, where every clue carries more weight.
+
+---
+
+### **Universality**
+
+Universality captures how broadly applicable a meta clue is across the total coverage of the game. A highly universal meta provides useful information in a wide range of rounds, while a low-universality meta is only relevant in niche contexts.
+
+- **Coverage breadth**: How much of the map does this meta apply to?
+	- **Examples**:
+	    - The **driving side** meta applies in nearly every country with coverage and is thus highly universal.
+	    - Kabupaten signs are found throughout Indonesia and provide highly distinctive regional information but they are specific to that country and not very universal.
+	- **Theoretical metrics**:
+	    - `universality score = (area of the regions where a meta is applicable) ÷ (total area of all regions with coverage)`
+
+- **Ubiquity**: How often is the clue physically visible in Street View imagery across regions and round types?
+	- **Examples**:
+	    - **Utility poles** and **road lines** appear frequently across both urban and rural coverage.
+	    - **Top-level domains** are rarely visible, even in signage-heavy environments.
+	- **Theoretical metric**:
+	    - `ubiquity = # of panoramas where the clue is visible ÷ total # of panoramas across coverage`
+
+Highly universal metas provide a good source of *checklist clues*, things you can look for that are almost always useful.
+
+---
+
+### **Stability**
+
+Stability measures how **consistent, reliable, and long-lasting** a meta clue is over time and across updates. Some metas are evergreen; others decay as real-world infrastructure changes, Street View coverage shifts, or Google updates its processing pipeline.
+
+- **Temporal consistency**: Has the clue remained valid across different eras of coverage?
+	- **Examples**:
+	    - Language scripts and **road line styles** tend to be highly stable.
+	    - The [[📌Google Cars|Google car]] meta is notoriously unstable, changing rapidly and often becoming obsolete with new camera generations.
+	- **Theoretical metrics**:
+		- `consistency = (# of panos from different generations where a specific clue is present and recognizable) / (Total # of panos)`
+
+- **Update resistance**: How likely is the clue to be present/recognizable in successive generations of Street View coverage?
+	- **Examples**:
+	    - A specific dog seen in an area is highly unlikely to appear in the next generation of coverage.
+	    - Most landmarks are consistently and deliberately included in Street View.
+	- **Theoretical metrics**:
+		- `update resistance = 1 - ((# of previously valid panos where the clue became invalid after an update) / (# of previously valid panos))`
+
+- **Real-World Volatility**: How vulnerable is a clue to real-world changes that might affect its appearance or presence between generations of Street View coverage?
+	- **Examples**:
+	    - Billboards circulate regularly and are unlikely to remain consistent between generations of coverage.
+	    - Utility infrastructure tends to remain consistent for decades.
+	- **Theoretical metrics**:
+		- `volatility = (years of continued reliability / years since clue was first observed) × (inverse of documented exceptions)`
+
+Stable metas are great investments: they resist churn and let you build long-term muscle memory without constant relearning while unstable metas might be powerful but susceptible to invalidation over time.
+
