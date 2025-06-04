@@ -36,7 +36,7 @@ SunDirection_{north}=\begin{bmatrix}
 \underset{\text{New Zealand}}{+100} &
 \end{bmatrix}
 $$
-This vector tips your guess strongly toward the southern hemisphere but hedges near the equator by applying a reduced penalty to equatorial countries. As you play and observe, collecting more vectors, the individual likelihood values for each location shift and a set of likely candidates emerges.
+This vector tips your guess strongly toward the southern hemisphere but hedges near the equator by applying a reduced penalty to equatorial countries. As you play and observe, you're essentially collecting a **rolling sum** of vectors representing your perceived likelihood for each possible location. As these likelihood values shift, a set of the most likely candidates emerges.
 $$
 \begin{align*}
 \textit{Likelihood} &= DriveSide_{left} + SunDirection_{north} \\\\
