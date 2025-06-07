@@ -4,9 +4,7 @@ title: Places
 ---
 ## **Overview**
 
-**Place entries** are location-based knowledge profiles designed to help players make better guesses using a top-down, context-driven approach. Where metas work by stacking small visual clues that *point toward* a location, place knowledge helps you understand *what a place looks like when you’re already there*.
-
-Each Place entry collects patterns, tells, decoys, and region-specific bundles of clues to help refine guesses and eliminate false leads. This is how seasoned players go from “somewhere in Latin America” to “probably eastern Colombia” in a few seconds — by recognizing recurring visual signatures tied to specific areas.
+If you’ve spent time in a place or even just grinding it on GeoGuessr you’ve already, consciously or not, developed a mental collection of things that you associate with that place. Places are more than just sets of coordinates, they’re abstract bundles of ideas tied together by physical proximity. As you explore an area, you’re feeling out the contours of both a physical geography and a higher-order liminal space shaped by history, culture, and nature that defines it. Each entry in the Places folder… 
 
 ## **Why Learn Places?**
 
